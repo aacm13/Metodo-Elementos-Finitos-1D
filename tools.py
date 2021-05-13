@@ -38,7 +38,7 @@ def readStuff(Mesh):
    
     while(flag):
         try:
-            filename = input("Ingrese el nombre del archivo que contiene los datos de la malla:\n")
+            filename = input("Nombre del archivo con datos:\n")
             file = open(filename)
             if(file):
                 cont = 0
